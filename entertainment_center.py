@@ -1,9 +1,22 @@
+"""
+simple file for Udacity project. Create moveis with imported media.py Movies
+class. Need to give the following with creating an object media.Movie():
+    string - movie title
+    string - story synopsis
+    string - movie poster url
+    string - youtube movie trailer URL
+"""
+
 import media
 import fresh_tomatoes
 
-star_wars = media.Movie("Star Wars", "A space opera", "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg", "https://www.youtube.com/watch?v=1g3_CFmnU7k")
+star_wars = media.Movie("Star Wars", "A space opera",
+                        "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg",
+                        "https://www.youtube.com/watch?v=1g3_CFmnU7k")
 
-toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life", "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life",
+                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
 movies = [star_wars, toy_story]
 
