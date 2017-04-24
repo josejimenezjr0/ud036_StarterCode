@@ -1,8 +1,9 @@
-import webbrowser
-""" media.py contains a Movie class that will genarate a data structure with a
-    movie's title, storyline, poster, and trailer.
 """
-class Movie():
+media.py contains a Movie class that will genarate a data structure with a
+movie's title, storyline, poster, and trailerself.
+"""
+
+class Movie(object):
     """ Movie init takes in strings for title title, storyline, poster, and
         trailer. There is a class variable that containg the movie rating
         system of G, PG, PG-13, and R.
