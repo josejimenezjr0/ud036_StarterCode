@@ -1,10 +1,12 @@
 import webbrowser
-
-#class Video():
-#    def __init__(self, ):
-
-
+""" media.py contains a Movie class that will genarate a data structure with a
+    movie's title, storyline, poster, and trailer.
+"""
 class Movie():
+    """ Movie init takes in strings for title title, storyline, poster, and
+        trailer. There is a class variable that containg the movie rating
+        system of G, PG, PG-13, and R.
+    """
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, m_title, m_storyline, m_poster, m_trailer):
@@ -12,12 +14,3 @@ class Movie():
         self.storyline = m_storyline
         self.poster_image_url = m_poster
         self.trailer_youtube_url = m_trailer
-
-    def show_trailer(self):
-        webbrowser.open(self.trailer_youtube_url)
-
-#class TvShow():
-#    def __init__(self, title):
-#        self.title
-
-#    def get
