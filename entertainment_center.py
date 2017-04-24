@@ -18,6 +18,12 @@ toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
-movies = [star_wars, toy_story]
+your_name = media.Movie("Your Name", "The story of a high school girl in rural Japan and a high school boy in Tokyo who swap bodies",
+                        "https://upload.wikimedia.org/wikipedia/en/0/0b/Your_Name_poster.png",
+                        "https://www.youtube.com/watch?v=e4dZhQaTJMk")
 
+# Create a list with the movie objects you made
+movies = [your_name, toy_story, star_wars]
+
+# Pass the movies list into the provided fresh_tomatoes.open_movies_page() function
 fresh_tomatoes.open_movies_page(movies)
